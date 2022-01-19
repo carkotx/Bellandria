@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         
+
+         const arrayClientes = [
+           {nombre: "Roxibeth" , apellido: "Belandria"},
+           {nombre: "Carlos" , apellido: "Rangel"},
+           {nombre: "Alessandro" , apellido: "Rangel"},
+           {nombre: "santiago" , apellido: "Merchan"}
+         ];
+
+         arrayClientes.sort((a, b) => {
+        const apellidosA = a.apellido.toLowerCase();
+        const apellidosB = b.apellido.toLowerCase();
+          if(apellidosA < apellidosB) {
+              return -1;
+          }
+          if(apellidosA > apellidosB) {
+              return  1;
+          } 
+
+          return 0;
+
+         });
+
+        console.log(arrayClientes);
+
+    </script>
+
+
+
+</body>
+</html>
