@@ -1,0 +1,351 @@
+
+  /* zona de compras*/
+
+  .contenedor {
+
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+  }
+ /* padding lo centro en la caja*/
+
+  .tabla{
+      width: 33%;
+      height: 550px;
+      margin: auto;
+      border: 1px solid #343759;
+      border-radius: 4px;
+      box-shadow: 0px 0px 4px 0px #343759;
+      padding: 60px;
+      text-align: center;
+      flex-grow: 1;
+      color:#343759 ;
+  }
+  
+  .tabla>h2 {
+     font-size: 30 px;
+     margin-bottom: 35px;
+
+  }
+
+  .tabla img{
+      width: 64 px;
+      margin-bottom:35px;
+
+  }
+
+  .tabla>h3{
+       font-size: 30px;
+       margin-bottom: 20px;
+  }
+
+  .tabla >p{
+    display: block;
+    margin-bottom: 20 px;
+  } 
+
+  .boton{
+display: inline-block;
+width: 150px;
+padding: 12px;
+background: #a5f059;
+text-decoration: none;
+color: #343759;
+border-radius: 100px;
+text-align: center;
+font-size: 14px;
+font-weight: 600;
+margin: auto;
+
+  }
+
+  .tabla:hover{
+    background: #343759;
+    color: #f1f1f2;
+    transition: .4s all;
+    transform: scala(1.1);
+    cursor: pointer;
+  }
+
+  /* formulario */
+
+
+
+  body {
+    font-family: "merienda", cursive;
+    text-decoration: none;
+    line-height: 1.5;
+  }
+  
+  .menu {
+    list-style: none;
+  
+    transition: all ease-in-out 0.8s;
+    background: lightcoral;
+    opacity: 0.8;
+    color: white;
+    text-decoration: none;
+  }
+  .menu div ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px 20px;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    position: relative;
+  }
+  .menu li {
+    color: white;
+    display: inline-block;
+    text-align-last: right;
+  }
+  
+  .menu div ul li ul li {
+    width: 100px;
+    position: relative;
+    top: 0;
+  }
+  .menu div ul li ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    display: none;
+  }
+  
+  .menu div ul li:hover ul {
+    display: block;
+  }
+  
+  .menu li a:hover {
+    background: lightcoral;
+    display: inline-block;
+  }
+  /*le agregue un logo al menu*/
+  .logo {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bodyContactos {
+    background-image: url("./imag/563201-mujer-con-crema-facial.png");
+    background-size: cover;
+    color: white;
+  }
+  
+  .footer {
+    background-color: #24262b;
+    padding: 70px 0;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contafoot {
+    max-width: 1170px;
+    margin: auto;
+  }
+  
+  ul {
+    list-style: none;
+    color: #ffffff;
+  }
+  
+  .footer-col {
+    width: 25%;
+    padding: 0 15px;
+  }
+  .footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  
+  .footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba (255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  
+  /*formulario*/
+  main {
+    padding: 3.5rem 0;
+  }
+  
+  /*font-w negrita, text al. al centro*/
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  section {
+    background-color: #837878;
+    opacity: 0.8;
+  }
+  /*para que salte de limea y centrar el formu.*/
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+  }
+  /*espacio entre los div arriba y abajo*/
+  .nomb {
+    display: flex;
+    flex-direction: column;
+  
+    width: 14rem;
+    margin: 0.5rem;
+  }
+  /*dar espacios entre las lineas*/
+  .nomb label {
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    color: white;
+  }
+  
+  .nomb input {
+    font-size: 1.1rem;
+    height: 2.2rem;
+    padding-left: 0.5rem;
+  }
+  
+  .nomb select {
+    font-size: 1.1rem;
+    width: 12rem;
+    height: 2.6rem;
+    padding-left: 0.5rem;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  /*la altura y ancho de la caja*/
+  .textbox {
+    display: flex;
+    flex-direction: column;
+  
+    width: 20rem;
+    margin: 0.75rem 0;
+  }
+  
+  .textbox label {
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    color: white;
+  }
+  /*medidas del area de textp de Otros datos*/
+  textarea {
+    font-size: 1.1rem;
+    max-width: 100%;
+    height: 5rem;
+    max-height: 15rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  
+  .destin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .destin label {
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    color: white;
+  }
+  
+  .destin div {
+    display: flex;
+    justify-content: flex-start;
+  
+    padding-left: 0.5rem;
+  }
+  /*estilos a los circulos del SI y NO*/
+  .destin div input {
+    height: 1rem;
+    width: 1rem;
+    cursor: pointer;
+  }
+  .privacidad {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  /* boton enviar*/
+
+  .enviar {
+    display: flex;
+    flex-direction: column;
+    
+    width: 7rem;
+    margin: 0.5rem;
+  }
+
+  .enviar button {
+    
+    font-size: 1.1rem;
+    height: 2.2rem;
+    padding-left: 0.5rem;
+  }
+
+  .enviar select {
+    font-size: 1.1rem;
+    width: 12rem;
+    height: 2.6rem;
+    padding-left: 0.5rem;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
