@@ -1,0 +1,59 @@
+[
+ {
+     "id": 1,
+     "nombre": "Ferulic-c",
+     "precio": 1200,
+    "imagen": "https://idraetgroup.com/es/images/joomlart/portfolio/productos-hogar/argentina2018/gel_limpiador.png"
+
+ },
+
+{
+    "id": 2,
+    "nombre": "Dermopurity",
+    "precio": 1200,
+    "imagen": "https://www.idraetgroup.com/es/images/joomlart/portfolio/productos-hogar/argentina2018/VITAMIN%20C%20EYES.png"
+
+},
+{
+    "id": 3,
+    "nombre": "Pore Refiner",
+    "precio": 1200,
+    "imagen": "https://www.idraetgroup.com/es/images/joomlart/portfolio/productos-hogar/argentina2018/PORE-REFINER.png"
+
+},
+{
+    "id": 4,
+    "nombre": "Reparador de ojeras Intensivo",
+    "precio": 1200,
+    "imagen": "https://www.idraetgroup.com/es/images/joomlart/portfolio/productos-hogar/argentina2018/SUBLIME-EYES.png"
+
+},
+{
+    "id": 5,
+    "nombre": "Agua micelar",
+    "precio": 1200,
+    "imagen": "https://www.heavenimagenes.com/heavencommerce/cbed7736-4c76-4fd0-b719-9ff071142423/images/v2/IDRAET/1901141928331582_01_medium.jpg"
+
+},
+{
+    "id": 6,
+    "nombre": "purifying gel cleanser",
+    "precio": 1200,
+    "imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/138/958/products/gel_limpiador1-9a2d27276896e1a1c515626027860566-640-0.png"
+
+},
+{
+    "id": 7,
+    "nombre": "Tuallitas desmaquillantes de agua",
+    "precio": 1200,
+    "imagen": "https://cdn.shopify.com/s/files/1/0088/6308/8704/products/make-up-remover-wipes-toallitas-desmaquillante-agua-micelar-30un-estetica-facial-idraet-el-hiper-de-la-pelu_500x500.jpg?v=1627563970"
+
+},
+{
+    "id": 8,
+    "nombre": "Hidratacion termal",
+    "precio": 1200,
+    "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/702/918/products/rica21-f6e9d4c774b60772dc15873878620494-1024-1024.jpg"
+
+}
+]

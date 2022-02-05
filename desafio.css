@@ -46,7 +46,9 @@
 
   .tabla>h3{
        font-size: 30px;
-       margin-bottom: 20px;
+       margin-bottom: 50px;
+       margin-top: auto;
+       display: inline-block;
   }
 
   .tabla >p{
@@ -65,7 +67,7 @@ border-radius: 100px;
 text-align: center;
 font-size: 14px;
 font-weight: 600;
-margin: auto;
+margin-top: auto;
 
   }
 
