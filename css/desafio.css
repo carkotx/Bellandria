@@ -150,10 +150,18 @@ margin-top: auto;
   }
   
   .bodyContactos {
-    background-image: url("./imag/563201-mujer-con-crema-facial.png");
+    background-image: url("/imag/563201-mujer-con-crema-facial.png");
     background-size: cover;
     color: white;
   }
+
+  
+body { 
+ 
+  background-image: url("/imag/563201-mujer-con-crema-facial.png");
+  background-size: cover;
+  color: white;
+}
   
   .footer {
     background-color: #24262b;

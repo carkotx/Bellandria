@@ -1,4 +1,4 @@
-$.get("data.json", (data) => {
+$.get("/data.json", (data) => {
     
 
   data.forEach((producto) => {

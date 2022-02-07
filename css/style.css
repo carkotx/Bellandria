@@ -34,7 +34,7 @@
  
 }
 .bodyContactos {
-  background-image: url("./imag/563201-mujer-con-crema-facial.png");
+  background-image: url("/imag/563201-mujer-con-crema-facial.png");
   background-size: cover;
  
 }
@@ -47,7 +47,7 @@
 
 body { 
   margin: 0;
-  background-image: url("./imag/563201-mujer-con-crema-facial.png");
+  background-image: url("/imag/563201-mujer-con-crema-facial.png");
   background-size: cover;
 }
 
